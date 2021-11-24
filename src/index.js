@@ -6,6 +6,7 @@ import { ApolloProvider, ApolloClient, InMemoryCache } from '@apollo/client';
 
 const client = new ApolloClient({
   uri: 'https://odyssey-test-create.herokuapp.com/', // change this to YOUR server URI
+  // uri: 'http://localhost:4002',
   cache: new InMemoryCache(),
 });
 

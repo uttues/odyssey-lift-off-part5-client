@@ -18,6 +18,7 @@ export const INCREMENT_TRACK_VIEWS = gql`
       track {
         id
         numberOfViews
+        durationInSeconds
       }
     }
   }
